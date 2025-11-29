@@ -25,7 +25,7 @@ i_minimo = df_celsius["Phoenix"].idxmin()
 temperatura_minima = df_celsius["Phoenix"][i_minimo].round(2)
 i_maximo = df_celsius["Phoenix"].idxmax()
 temperatura_maxima = df_celsius["Phoenix"][i_maximo].round(2)
-temperatura_promedio = df_celsius["Phoenix"].mean()
+temperatura_promedio = df_celsius["Phoenix"].mean().round(2)
 
 # TODO: Imprime que día y hora se registró la temperatura mínima en Phoenix con el siguiente mensaje: "El día con la temperatura mínima en Phoenix fue: {fecha}"
 print(f"El día con la temperatura mínima en Phoenix fue: {i_minimo}")
