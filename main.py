@@ -30,7 +30,7 @@ temperatura_promedio = df_celsius["Phoenix"].mean()
 # TODO: Imprime que día y hora se registró la temperatura mínima en Phoenix con el siguiente mensaje: "El día con la temperatura mínima en Phoenix fue: {fecha}"
 print(f"El día con la temperatura mínima en Phoenix fue: {i_minimo}")
 # TODO: Imprime la temperatura mínima en Phoenix con el siguiente mensaje: "La temperatura mínima registrada en Phoenix fue de: ",temperatura," °C""
-print(f"La temperatura mínima registrada en Phoenix fue de {temperatura_minima} °C")
+print(f"La temperatura mínima registrada en Phoenix fue de: {temperatura_minima} °C")
 
 # TODO: Imprime que día y hora se registró la temperatura máxima en Phoenix con el siguiente mensaje: "El día con la temperatura máxima en Phoenix fue: {fecha}"
 # TODO: Imprime la temperatura máxima en Phoenix con el siguiente mensaje: "La temperatura máxima registrada en Phoenix fue de: ", temperatura, " °C""
