@@ -21,15 +21,17 @@ df_celsius = df.copy()
 # TODO: Convertir las temperaturas de cada ciudad de Kelvin a Celsius usando la funcion creada
 df_celsius["Phoenix"] = df_celsius["Phoenix"].apply(funcion)
 # Analisis
+i_minimo = df_celsius["Phoenix"].idxmin()
+temperatura_minima = df_celsius["Phoenix"][i_minimo]
+i_maximo = df_celsius["Phoenix"].idxmax()
+temperatura_maxima = df_celsius["Phoenix"][i_maximo]
+temperatura_promedio = df_celsius["Phoenix"].mean()
 
 # TODO: Imprime que día y hora se registró la temperatura mínima en Phoenix con el siguiente mensaje: "El día con la temperatura mínima en Phoenix fue: {fecha}"
-print("\nEstadísticas de precios:")
-print(f"Mínimo: ${df['Price'].min():,.0f}")
-print(f"Máximo: ${df['Price'].max():,.0f}")
-print(f"Promedio: ${df['Price'].mean():,.0f}")
-print(f"Mediana: ${df['Price'].median():,.0f}")
+print(f"El día con la temperatura mínima en Phoenix fue: {i_minimo}"
 # TODO: Imprime la temperatura mínima en Phoenix con el siguiente mensaje: "La temperatura mínima registrada en Phoenix fue de: ", temperatura, " °C""
 
+print(f"La temperatura mínima registrada en Phoenix fue de: ", {temperatura_minima}, " °C""
 # TODO: Imprime que día y hora se registró la temperatura máxima en Phoenix con el siguiente mensaje: "El día con la temperatura máxima en Phoenix fue: {fecha}"
 # TODO: Imprime la temperatura máxima en Phoenix con el siguiente mensaje: "La temperatura máxima registrada en Phoenix fue de: ", temperatura, " °C""
 
