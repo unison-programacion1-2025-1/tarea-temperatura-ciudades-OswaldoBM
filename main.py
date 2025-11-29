@@ -33,9 +33,13 @@ print(f"El día con la temperatura mínima en Phoenix fue: {i_minimo}")
 print(f"La temperatura mínima registrada en Phoenix fue de: {temperatura_minima} °C")
 
 # TODO: Imprime que día y hora se registró la temperatura máxima en Phoenix con el siguiente mensaje: "El día con la temperatura máxima en Phoenix fue: {fecha}"
+print(f"El día con la temperatura máxima en Phoenix fue: {i_maximo}")
+
 # TODO: Imprime la temperatura máxima en Phoenix con el siguiente mensaje: "La temperatura máxima registrada en Phoenix fue de: ", temperatura, " °C""
+print("La temperatura máxima registrada en Phoenix fue de: ",temperatura_maxima," °C")
 
 # TODO: Imprime la temperatura promedio en Phoenix durante el año 2016 con el siguiente mensaje: "La temperatura promedio durante 2016 en Phoenix fue de: ", temperatura, " °C""
+print("La temperatura promedio durante 2016 en Phoenix fue de: ",temperatura_promedio," °C")
 
 # Graficar la temperatura de Phoenix durante el año 2016
 plt.figure(figsize=(20, 10))
